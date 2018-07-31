@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breeze | Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+<div class="custom-overview" id="customOverview">
+    <div class="container">
+        <div class="row">
+            <div class="custom-title col-lg-4 col-md-6 col-sm-12">
+                <input type="text" value="Accra" id="city">
+                <h1 class="display-1" id="country">GH</h1>
+            </div>
+
+            <div class="custom-temperature col-lg-8 col-md-6 col-sm-12">
+                <h1 style="font-size: 200px" id="temp">32&degC</h1>
+            </div>
+        </div>
+
+        <div class="row custom-summary">
+            <h1 class="display-4" id="weatherSummary">Currently Sunny</h1>
+            <img id='weatherSummaryIcon' src="assets/img/weather-icons/050-sun.svg" alt="sun" class="animated infinite pulse">
+        </div>
+    </div>
+</div>
+
+<div class="row custom-detail">
+    <div class="col-lg-3 col-sm-6 col-xs-6">
+        <div>
+            <img src="assets/img/weather-icons/018-snowflake.svg" width="70%">
+            <p id="humidity">Humidity</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6 col-xs-6">
+        <div>
+            <img src="assets/img/weather-icons/014-pine.svg" width="70%">
+            <p id="windSpeed">Wind Speed</p>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6 col-xs-6">
+        <div>
+            <img src="assets/img/weather-icons/046-temperature-1.svg" width="70%">
+            <p id="minTemperature">Min Temperature</p>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-sm-6 col-xs-6">
+        <div>
+            <img src="assets/img/weather-icons/044-temperature-2.svg" width="70%">
+            <p id="maxTemperature">Max Temperature</p>
+        </div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
